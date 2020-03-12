@@ -17,7 +17,7 @@ export class AppComponent {
 
     // the lang to use, if the lang isn't available, it will use the current loader to get them
     const browserLang = translate.getBrowserLang();
-    translate.use(browserLang.match(/en|fr/) ? browserLang : 'en');
+    translate.use(browserLang.match(/en|fr/) ? browserLang : 'en');*/
 
     const firebaseConfig = {
       apiKey: 'AIzaSyBqIBGZr9N0iTIQihIXWqEzu0EmGAyZ-9Y',
